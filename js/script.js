@@ -1,6 +1,6 @@
 const loadApi = async ()=> {
     let input = document.getElementById("search-box");
-    let url = "http://www.omdbapi.com/?i=tt3896198&apikey=16a47919&t=";
+    let url = "https://www.omdbapi.com/?i=tt3896198&apikey=16a47919&t=";
     let data = await fetch(url+input.value);
     let parsedData = await data.json();
     console.log(parsedData)
