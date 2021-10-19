@@ -59,21 +59,18 @@
     margin: 0 0.3rem 0.3rem 0;
     border-radius: 20px;
     height: 2rem;
-    background-color: #92C9E1;
+    background-color: #7cbdda;
     color: #FFFFFF;
     text-align: center;
+    border: none;
 }
+
 
 .button:hover {
-    background-color: #4187af;
+    background-color: #529eca;
 }
-
-.show{
-    background-color: burlywood;
-    width: 20%;
-    height: 20rem;
-    color: white;
-    display: none;
+.button:active {
+    background-color: #2f8dc4;
 }
 
 
@@ -110,4 +107,8 @@
 .movie-plot{
     font-family: 'IM Fell English SC',
     serif;
+}
+
+.imdb{
+    color: #FFC83D;
 }
