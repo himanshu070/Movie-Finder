@@ -65,7 +65,6 @@
     border: none;
 }
 
-
 .button:hover {
     background-color: #529eca;
 }
@@ -79,9 +78,11 @@
     color: white;
     width: 100%;
 }
+
 .poster{
     width: 50%;    
 }
+
 .movieInformation{
     width: 50%;
     padding-right: 5rem;
@@ -93,17 +94,20 @@
     padding-left: 24rem;
     padding-top: 4rem;
 }
+
 .movieInformation-card{
     width: 19rem;
     height: 18rem;
     margin-top: 4rem;
     background-color: rgba(0, 0, 0, 0.719);
 }
+
 .movie-title{
    font-family: 'Ubuntu',
    sans-serif;
    font-size: x-large;
 }
+
 .movie-plot{
     font-family: 'IM Fell English SC',
     serif;

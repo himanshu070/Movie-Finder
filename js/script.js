@@ -21,7 +21,7 @@ const loadApi = async ()=> {
     <br>
     <h4>Directed by ${parsedData.Director}</h4>
     <h4>${parsedData.Genre}</h4>
-    <br>
+ 
     
     <br><br>
     
